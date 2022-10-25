@@ -7,8 +7,10 @@
 
 ### 位元和字节 Bits und Bytes [\>\>](marginnote3app://note/0A3C3743-1945-43FC-87AC-C0D20693E001)
 
-Bits是二进制中的一位，是信息的最小的单位，表示只有两个相等大小的可能性  
-Hexziffern 是个一个4Bits的数组，也是半个Byte，或是称为一个Nibble。它只有16种可能，表示16进制的数。  
+Bits
+是二进制中的一位，是信息的最小的单位，表示只有两个相等大小的可能性  
+Hexziffern 
+是个一个4Bits的数组，也是半个Byte，或是称为一个Nibble。它只有16种可能，表示16进制的数。  
   
 ![](media/5b337a982f91895440f3ea5e497e74e0.png)  
 进制系统: Dezimal-System 十进制 Hexadezimal-System 十六进制 Oktalsystem 八进制 Binärsystem 二进制  
@@ -33,12 +35,16 @@ Bytes 字节 计算机以位元组的形式进行计算，可为8Bits, 16Bits, 3
 ASCII : American Standard Code for Information Interchange. 美国信息交换标准代码 定义了128个字符，其中33个无法显示，95个可显示  
   
 ![](media/f0a3ae6ca2dc05e5b38dcdfe1a5afe08.png)  
-Die ASCII-Codes von 1 bis 26 entsprechen dabei den Kombinationen Ctrl-A bis Ctrl-Z auf einer Tastatur 使用Ctrl进行控制 • Bei der ASCII-Codierung werden nur die ersten 7 Bits eines Byte genutzt. • Das letzte Bit verwendete man früher als Kontrollbit für die Datenübertragung. ASCII只使用前7位，最后一位用于控制数据传输  
+Die ASCII-Codes von 1 bis 26 entsprechen dabei den Kombinationen Ctrl-A bis Ctrl-Z auf einer Tastatur 
+使用Ctrl进行控制 
+• Bei der ASCII-Codierung werden nur die ersten 7 Bits eines Byte genutzt. • Das letzte Bit verwendete man früher als Kontrollbit für die Datenübertragung. 
+ASCII只使用前7位，最后一位用于控制数据传输  
 Von der „International Standardization Organization“ (ISO) wurden verschiedene ASCII-Erweiterungen normiert, die diese Zeichen ganz oder teilweise nutzen. In Europa ist dazu die ASCII-Erweiterung Latin-1 nützlich, die durch die Norm ISO8859-1 beschrieben wird.
 
 #### Unicode [\>\>](marginnote3app://note/98962A3E-2E7B-4679-BCA3-8C035721756D)
 
-Dieser neue Zeichensatz heißt Unicode und verwendet eine 16-Bit-Codierung, kennt also maximal 65536 Zeichen. Unicode是16位的，可记录65536种字符 统一码联盟，他们由Xerox、Apple等软件制造商于1988年组成，并且开发了Unicode标准（The Unicode Standard —Unique, Universal, and Uniform）。 Die ersten 128 Unicode-Zeichen sind identisch mit dem ASCII- Code, die nächsten 128 mit dem ISO8859-1 Latin 1 Code. 前128种Unicode是ASCII，再之后的128种字符是Latin-1 Unicode wurde vom Unicode-Consortium (www.unicode.org) definiert. Dieses arbeitet ständig an neuen Versionen und Erweiterungen dieses Zeichensatzes. Unicode编码点分为17个平面（plane），每个平面包含216（即65536）个码位（code point），而第一个平面称为“基本多语言平面”（Basic Multilingual Plane，简称BMP），其余平面称为“辅助平面”（Supplementary Planes）。其中“基本多语言平面”（0\~0xFFFF）中0xD800\~0xDFFF之间的码位作为保留，未使用。
+Dieser neue Zeichensatz heißt Unicode und verwendet eine 16-Bit-Codierung, kennt also maximal 65536 Zeichen. Unicode
+是16位的，可记录65536种字符 统一码联盟，他们由Xerox、Apple等软件制造商于1988年组成，并且开发了Unicode标准（The Unicode Standard —Unique, Universal, and Uniform）。 Die ersten 128 Unicode-Zeichen sind identisch mit dem ASCII- Code, die nächsten 128 mit dem ISO8859-1 Latin 1 Code. 前128种Unicode是ASCII，再之后的128种字符是Latin-1 Unicode wurde vom Unicode-Consortium (www.unicode.org) definiert. Dieses arbeitet ständig an neuen Versionen und Erweiterungen dieses Zeichensatzes. Unicode编码点分为17个平面（plane），每个平面包含216（即65536）个码位（code point），而第一个平面称为“基本多语言平面”（Basic Multilingual Plane，简称BMP），其余平面称为“辅助平面”（Supplementary Planes）。其中“基本多语言平面”（0\~0xFFFF）中0xD800\~0xDFFF之间的码位作为保留，未使用。
 
 #### UCS [\>\>](marginnote3app://note/F5D21AC3-476D-4E54-AD29-32981F9446A2)
 
